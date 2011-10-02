@@ -35,6 +35,9 @@ p {
 blockquote {
   margin: 1em 40px; /* Same for all browsers - Customize or remove */
 }
+figure {
+  margin: 1em 0; /* Default in HTML5 spec: `1em 40px` */
+}
 
 /* LINKS */
 /* Default browser styles (from Firefox, similar in most browsers) */
