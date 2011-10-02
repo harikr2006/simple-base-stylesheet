@@ -1,8 +1,10 @@
-# A Simple Base Stylesheet
+# Simple base stylesheet
 
-This is an base stylesheet that I use in some of my projects. I don’t just
-copy it and go on writing other CSS styles, but tend to modify the rules
-to fit the project.
+This is a base stylesheet that I use in some of my projects as an alternative
+to CSS Resets. I don’t just copy it and go on writing other CSS styles, but
+tend to modify the rules to fit each project.
+
+## Rationale
 
 Default browser styles are fairly consistent. There *are* a few differencies
 though, and this stylesheet (especially the `simple.css` variant) tries to
@@ -16,6 +18,6 @@ strategy of [CSS Resets][]. For a more comprehensive project with a similar appr
 
 ## Will this fix browser rendering issues?
 
-Nope. No CSS Reset or base stylesheet can. Most browser rendering issues are
-due to lacking browser capabilities, subtleties in implementations, or
-outright browser bugs.
+Nope. No CSS Reset or base stylesheet can. (Most browser rendering issues
+arise from lacking browser capabilities, subtleties in implementations, or
+outright browser bugs. There is no fail-safe patch for those.)
